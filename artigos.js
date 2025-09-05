@@ -52,18 +52,19 @@ A IA funciona por meio da coleta e análise de grandes volumes de dados, identif
         `
       },
 
-      educaia:{
-        titulo:'Impacto da i.a na educação',
-        paragrafo: `<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAmL_nXiRWrh6sVA3cp8pbgjkqjv-jQUlntQ&s" alt=""><br>
-        <p>A Inteligência Artificial (IA) tem transformado diversos setores, e a educação é um dos campos onde seu impacto é particularmente significativo. A implementação da IA no ambiente educacional oferece uma série de benefícios, mas também apresenta desafios que merecem atenção.</p></br>
-        <h2>Benefícios da Inteligência Artificial na Educação</h2>
-        <ol>
-          <li><strong>Personalização do Ensino:</strong> A IA permite adaptar o conteúdo educacional às necessidades individuais de cada aluno, analisando seu desempenho e ajustando materiais e atividades conforme seu ritmo e estilo de aprendizagem. Isso resulta em um aprendizado mais eficaz e engajador.</li>
-          <li><strong>Acesso Ampliado a Recursos Educacionais: </strong>Ferramentas baseadas em IA expandem o acesso a materiais de alta qualidade, possibilitando que estudantes de diferentes regiões e contextos socioeconômicos tenham oportunidades educacionais mais equitativas.</li>
-          <li><strong>Automação de Tarefas Administrativas:</strong> A IA pode automatizar atividades como correção de provas e gestão de registros acadêmicos, liberando os educadores para se concentrarem mais no ensino e na interação com os alunos. ​</li>
-          <li><strong>Detecção Precoce de Dificuldades de Aprendizado:</strong> Sistemas inteligentes podem identificar sinais de dificuldades acadêmicas nos alunos, permitindo intervenções rápidas e eficazes para evitar a evasão escolar.</li>
-          <li><strong>Criação de Aulas Imersivas: </strong>A combinação de IA com tecnologias como realidade virtual possibilita experiências educacionais mais envolventes, permitindo que os alunos explorem conceitos de maneira prática e interativa.</li>
-          </ol>`
+      industr_ia: {
+        titulo: 'Inteligência Artificial na Indústria',
+       paragrafo: `<img src="" alt="IA na Indústria"><br>
+      <p>A Inteligência Artificial (IA) tem revolucionado a indústria, tornando processos mais ágeis, precisos e econômicos. Entre suas principais aplicações estão o <strong>Machine Learning</strong>, a <strong>Visão Computacional</strong> e a <strong>Manutenção Preventiva Inteligente</strong>, tecnologias que já estão transformando linhas de produção e a gestão de equipamentos.</p></br>
+    <h2>Principais Aplicações da Inteligência Artificial na Indústria</h2>
+      <ol>
+       <li><strong>Machine Learning:</strong> Permite que sistemas aprendam padrões a partir de grandes volumes de dados, sem depender apenas de programação explícita. É usado para prever demanda, otimizar estoques, reduzir desperdícios e identificar falhas nos processos produtivos.</li>
+      <li><strong>Visão Computacional:</strong> Utiliza câmeras e algoritmos para interpretar imagens e vídeos em tempo real. Na prática, é aplicada no controle de qualidade, detectando defeitos em peças e embalagens com mais precisão do que a inspeção manual.</li>
+      <li><strong>Manutenção Preventiva Inteligente:</strong> Monitora variáveis como vibração, temperatura e consumo de energia em máquinas. Assim, prevê falhas antes que ocorram, permitindo a manutenção no momento ideal e evitando paradas inesperadas.</li>
+      </ol>
+    <h2>Conclusão</h2>
+    <p>Com essas tecnologias, a IA garante mais <strong>segurança, economia e competitividade</strong> para a indústria. Machine Learning, Visão Computacional e Manutenção Preventiva mostram como a transformação digital está moldando o futuro da produção industrial.</p>`
+
       },
       logica: {
   titulo: 'O Que é Lógica de Programação?',
@@ -280,10 +281,75 @@ algoritimos: {
   
     <p><strong>Próximo tema:</strong> <a href="#opensource">Softwares de código aberto: liberdade e colaboração</a></p>
     `
-  }
+  },
+  industria_4:{
+    titulo: 'Fundamentos da Automação Industrial e Indústria 4.0',
+paragrafo: `<img src="https://blog.simatec.com.br/wp-content/uploads/2020/11/industria-4.0.jpg" alt="Automação Industrial"><br>
+<p>A <strong>automação industrial</strong> é um dos pilares da Indústria 4.0, trazendo mais eficiência, precisão e segurança para os processos produtivos. Seu objetivo é reduzir a intervenção humana em tarefas repetitivas, permitindo maior produtividade e controle em tempo real.</p></br>
+
+<h2>Principais Conceitos da Automação</h2>
+<ol>
+  <li><strong>O que é Automação:</strong> É o uso de tecnologias para operar máquinas e processos com pouca ou nenhuma intervenção humana, garantindo padronização e aumento de eficiência.</li>
+  <li><strong>Níveis de Automação:</strong> A automação pode ser dividida em diferentes camadas:
+    <ul>
+      <li><strong>Nível de Dispositivo:</strong> Inclui sensores, atuadores e instrumentos de campo que coletam dados e executam ações.</li>
+      <li><strong>Nível de Controle:</strong> Responsável pela tomada de decisão em tempo real, geralmente realizado por CLPs.</li>
+      <li><strong>Nível de Supervisão:</strong> Permite acompanhar os processos por meio de sistemas SCADA, com painéis de controle e monitoramento.</li>
+      <li><strong>Nível de Gerenciamento:</strong> Integra a produção com a gestão empresarial, auxiliando no planejamento e na tomada de decisões.</li>
+    </ul>
+  </li>
+  <li><strong>CLPs (Controladores Lógicos Programáveis):</strong> São equipamentos essenciais na automação industrial. Eles recebem sinais de sensores, processam as informações por meio de programas e enviam comandos para atuadores.</li>
+  <li><strong>Atuadores:</strong> Dispositivos que transformam sinais elétricos do CLP em ações físicas, como o movimento de motores, válvulas ou cilindros pneumáticos.</li>
+</ol>
+
+<h2>Indústria 4.0</h2>
+<p>A Indústria 4.0 combina automação tradicional com tecnologias digitais avançadas, como <strong>Internet das Coisas (IoT)</strong>, <strong>Big Data</strong> e <strong>Inteligência Artificial</strong>. Esse modelo cria fábricas inteligentes, conectadas e capazes de se adaptar rapidamente às mudanças do mercado.</p>
+
+<h2>Conclusão</h2>
+<p>Entender os fundamentos da automação e os níveis de controle é essencial para acompanhar a evolução da <strong>Indústria 4.0</strong>. CLPs, sensores e atuadores continuam sendo a base, agora integrados a sistemas digitais que tornam a produção mais inteligente e competitiva.</p>`
+
+  },
+  industria_evolucao:{
+    titulo: 'Evolução da Indústria: As Revoluções Industriais',
+paragrafo: `<img src="https://static.significados.com.br/foto/revolucoes-industriais-og.jpg" alt="Revoluções Industriais"><br>
+<p>A <strong>evolução da indústria</strong> pode ser entendida a partir das chamadas <strong>Revoluções Industriais</strong>, que marcaram grandes transformações tecnológicas, sociais e econômicas ao longo da história. Cada fase trouxe inovações que mudaram profundamente a forma de produzir e viver.</p></br>
+
+<h2>As Revoluções Industriais</h2>
+<ol>
+  <li><strong>Primeira Revolução Industrial (século XVIII):</strong> Iniciada na Inglaterra, foi marcada pelo uso do carvão e das máquinas a vapor. A mecanização dos processos têxteis e o desenvolvimento das ferrovias impulsionaram a produção em larga escala.</li>
   
-      
-    };
+  <li><strong>Segunda Revolução Industrial (século XIX):</strong> Caracterizada pela eletricidade, pelo aço e pela linha de montagem. Houve grande crescimento das indústrias químicas, siderúrgicas e de transporte, além do surgimento da produção em massa.</li>
+  
+  <li><strong>Terceira Revolução Industrial (século XX):</strong> Conhecida como a revolução digital, foi marcada pelo avanço da eletrônica, da informática e da automação. Os computadores e os sistemas de controle começaram a transformar as fábricas.</li>
+  
+  <li><strong>Quarta Revolução Industrial (século XXI):</strong> Também chamada de <strong>Indústria 4.0</strong>, combina automação com tecnologias digitais avançadas, como Internet das Coisas (IoT), Big Data, Inteligência Artificial e sistemas ciberfísicos. O foco está em fábricas inteligentes e altamente conectadas.</li>
+</ol>
+
+<h2>Conclusão</h2>
+<p>As Revoluções Industriais representam marcos de inovação que moldaram o mundo moderno. Hoje, com a Indústria 4.0, estamos vivendo uma nova era, onde a integração entre homem, máquina e tecnologia digital define os rumos da produção e da economia global.</p>`
+
+  },
+
+  pilares:{
+    titulo: 'Pilares da Indústria 4.0: IoT, Sistemas Ciber-Físicos e Big Data',
+paragrafo: `<img src="https://www.sotecbrasil.com.br/wp-content/uploads/2021/09/industria-4-0-1024x576.jpg" alt="Pilares da Indústria 4.0"><br>
+<p>A <strong>Indústria 4.0</strong> é baseada em tecnologias avançadas que permitem fábricas inteligentes, conectadas e mais eficientes. Entre seus principais pilares estão a <strong>Internet das Coisas (IoT)</strong>, os <strong>Sistemas Ciber-Físicos</strong> e o <strong>Big Data</strong>, que juntos transformam a forma como os processos produtivos são planejados e executados.</p></br>
+
+<h2>Internet das Coisas (IoT)</h2>
+<p>A <strong>IoT</strong> conecta sensores, máquinas e dispositivos à internet, permitindo a coleta e o compartilhamento de dados em tempo real. Isso possibilita monitorar processos, otimizar recursos e tomar decisões mais rápidas e precisas.</p>
+
+<h2>Sistemas Ciber-Físicos</h2>
+<p>São sistemas que integram o mundo físico e o digital, combinando máquinas, sensores e softwares inteligentes. Esses sistemas permitem automação avançada, monitoramento contínuo e respostas imediatas a alterações nos processos industriais.</p>
+
+<h2>Big Data</h2>
+<p>O <strong>Big Data</strong> refere-se à análise de grandes volumes de dados gerados pelos equipamentos e sistemas industriais. Com essas informações, é possível identificar padrões, prever falhas, melhorar a produção e tomar decisões estratégicas baseadas em dados reais.</p>
+
+<h2>Conclusão</h2>
+<p>IoT, Sistemas Ciber-Físicos e Big Data formam a base tecnológica da Indústria 4.0. Juntos, eles permitem fábricas mais inteligentes, eficientes e capazes de se adaptar rapidamente às demandas do mercado, definindo o futuro da produção industrial.</p>`
+
+  }
+
+};
 
     const artigoSelecionado = artigo[iden];
 
